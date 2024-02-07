@@ -1,8 +1,8 @@
-import express, { Request, Response } from 'express';
+import express, {Request, Response} from 'express';
 import Post from './post.interface';
-import IController from '../interfaces/controller.interface'; 
-
-export default class PostsController implements IController  {
+import IController from "../interfaces/controller.interface";
+ 
+export default class PostsController implements IController {
   public path = '/posts';
   public router = express.Router();
  
